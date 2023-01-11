@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@meow-exchange-client/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
